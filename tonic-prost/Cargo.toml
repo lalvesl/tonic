@@ -13,7 +13,7 @@ keywords = ["rpc", "grpc", "prost", "protobuf", "tonic"]
 
 [dependencies]
 tonic = { version = "0.14.0", path = "../tonic", default-features = false }
-prost = "0.14"
+prost = { git = "https://github.com/lalvesl/prost.git", rev = "df04822" }
 bytes = "1"
 
 [dev-dependencies]

@@ -18,8 +18,8 @@ cleanup-markdown = ["prost-build/cleanup-markdown"]
 
 [dependencies]
 tonic-build = { version = "0.14.0", path = "../tonic-build", default-features = false }
-prost-build = { version = "0.14" }
-prost-types = { version = "0.14" }
+prost-build = { git = "https://github.com/lalvesl/prost.git", rev = "df04822" }
+prost-types = { git = "https://github.com/lalvesl/prost.git", rev = "df04822" }
 prettyplease = { version = "0.2" }
 proc-macro2 = "1.0"
 quote = "1.0"
